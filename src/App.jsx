@@ -4,8 +4,8 @@ import Sidenav from "./views/sidenav";
 import MenuOpen from "./assets/images/icons/menu-open.png";
 import MenuClose from "./assets/images/icons/menu-close.png";
 import deepu from "./assets/images/main.jpg";
-import Experience from "./components/Experience";
-import Research from "./components/Research";
+import Experience from "./views/Experience";
+import Research from "./views/Research";
 
 const App = () => {
   const [showSidebar, setShowSidebar] = useState(false);

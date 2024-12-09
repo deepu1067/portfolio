@@ -1,5 +1,5 @@
 import React from 'react';
-import ResearchItem from './ResearchItem';
+import ResearchItem from '../components/ResearchItem';
 
 const Research = () => {
   const researchItems = [
