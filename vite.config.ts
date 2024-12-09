@@ -1,0 +1,9 @@
+
+import { defineConfig } from 'vite'
+// ...existing code...
+
+export default defineConfig({
+  // ...existing code...
+  base: './', // Add this line for proper asset paths
+  // ...existing code...
+})
