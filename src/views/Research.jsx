@@ -12,7 +12,7 @@ const Research = () => {
     {
         topic: "Enhancing Deep Learning Models for Alzheimer's Disease Detection Using 3D Magnetic Resonance Imaging",
         status: "Under Review",
-        tools: ["python", "tensorflow", "scikit-learn", "fastsurfer"]
+        tools: ["Python", "tensorflow", "scikit-learn", "fastsurfer"]
     },
 
     {

@@ -6,17 +6,18 @@ const ResearchItem = ({ topic, status, tools }) => (
     <p className="mb-3">
       {(status === 'ongoing' || status === 'under review') ? (
         <>Status: <span style={{ 
-          color: status === 'ongoing' ? '#8B4513' : '#0066cc'
+          color: status === 'ongoing' ? '#8B4513' : '#0066cc',
+          textTransform: 'capitalize'
         }}>{status}</span></>
       ) : (
-        <span style={{ color: '#243010' }}>{status}</span>
+        <span style={{ color: '#243010', textTransform: 'capitalize' }}>{status}</span>
       )}
     </p>
     <div className="d-flex flex-wrap gap-2">
       {tools.map((tool, index) => (
         <span 
           key={index} 
-          className="px-3 py-1 rounded-pill" 
+          className="px-3 py-1 rounded-pill text-captilize" 
           style={{ 
             backgroundColor: '#cad593',
             color: '#243010',
@@ -25,6 +26,7 @@ const ResearchItem = ({ topic, status, tools }) => (
             transition: 'all 0.2s ease',
             cursor: 'default',
             transform: 'translateY(0)',
+            textTransform: 'capitalize',
             ':hover': {
               transform: 'translateY(-2px)',
               boxShadow: '4px 4px 8px rgba(0,0,0,0.3), -1px -1px 4px rgba(255,255,255,0.4)',
